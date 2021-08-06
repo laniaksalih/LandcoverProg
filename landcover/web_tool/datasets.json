@@ -1,0 +1,65 @@
+{ 
+    "travis_2016": {
+        "metadata": {
+            "displayName": "Travis County, TX (Summer 2016)",
+            "locationName": null
+        },
+        "dataLayer": {
+            "type": "CUSTOM",
+            "path": "/mnt/landcover-ai/travis_county/travis_county_single_image_2016.tif",
+            "padding": 500,
+            "resolution": 10
+        },
+        "basemapLayers": [
+            {
+                "layerName": "Sentinel Imagery",
+                "initialZoom": 11,
+                "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                "initialLocation": [30.33, -97.78],
+                "args": {
+                    "attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, US",
+                    "maxZoom": 20,
+                    "minZoom": 4
+        
+                }
+            }
+        ],
+        "shapeLayers":[ {
+                "shapesFn": "data/travis_county.geojson",
+                "zoneNameKey": "id",
+                "name": "Boundary"
+            }],
+        "validModels": ["sentinel_demo"]
+    },
+"travis_2017": {
+        "metadata": {
+            "displayName": "Travis County, TX (Summer 2017)",
+            "locationName": null
+        },
+        "dataLayer": {
+            "type": "CUSTOM",
+            "path": "/mnt/landcover-ai/travis_county/travis_county_single_image_2017.tif",
+            "padding": 500,
+            "resolution": 10
+        },
+        "basemapLayers": [
+            {
+                "layerName": "Sentinel Imagery",
+                "initialZoom": 11,
+                "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                "initialLocation": [30.33, -97.78],
+                "args": {
+                    "attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, US",
+                    "maxZoom": 20,
+                    "minZoom": 4
+
+                }
+            }],
+        "shapeLayers":[ {
+                "shapesFn": "data/travis_county.geojson",
+                "zoneNameKey": "id",
+                "name": "Boundary"
+            }],
+        "validModels": ["sentinel_demo"]
+    }
+}

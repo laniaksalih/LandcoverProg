@@ -1,0 +1,16 @@
+{
+"travis_2016": {
+            "underlying_model_file_path": "/home/azureuser/landcover/data/models/sentinel_demo_model.h5",
+            "augment_model_file_path" :"/home/azureuser/landcover/tmp/checkpoints/travis_2016-sentinel_demo-travis/augment_model.p",
+            "augment_x_train_file_path" : "/home/azureuser/landcover/tmp/checkpoints/travis_2016-sentinel_demo-travis/augment_x_train.npy",
+            "augment_y_train_file_path" : "/home/azureuser/landcover/tmp/checkpoints/travis_2016-sentinel_demo-travis/augment_y_train.npy"
+        },
+"travis_2017": {
+            "underlying_model_file_path": "/home/azureuser/landcover/data/models/sentinel_demo_model.h5",
+            "augment_model_file_path" :"/home/azureuser/landcover/tmp/checkpoints/travis_2017-sentinel_demo-travis/augment_model.p",
+            "augment_x_train_file_path" : "/home/azureuser/landcover/tmp/checkpoints/travis_2017-sentinel_demo-travis/augment_x_train.npy",
+            "augment_y_train_file_path" : "/home/azureuser/landcover/tmp/checkpoints/travis_2017-sentinel_demo-travis/augment_y_train.npy"
+        }
+}
+
+

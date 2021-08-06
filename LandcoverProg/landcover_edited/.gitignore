@@ -1,0 +1,17 @@
+.vscode/
+.idea/
+
+.ipynb_checkpoints/
+__pycache__
+*.pyc
+
+data/
+logs/
+tmp/
+
+web_tool/endpoints.mine.js
+web_tool/datasets.mine.json
+web_tool/models.mine.json
+
+# Mac file system
+.DS_Store
