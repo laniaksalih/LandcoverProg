@@ -155,11 +155,15 @@ There are a few files that you will need to edit to specify details:
     
 Once you have specified these details, make sure you are in `LandcoverProg` 
     
-You will need to provide two arguments:
+You will need to provide two arguments: (type python main.py -h for details)
 
 - -f the file name of which you would like to classify (from the fileshare)
 - -m the name of the model you would like to use as it appears in the `model_files.json` file
-    
+
+Example: 
+```bash 
+python main.py -f travis_2016.tif -m travis_2016
+```
     
     
     
