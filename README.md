@@ -104,7 +104,7 @@ Whether you configured the web-tool in an Azure VM or locally, the following ste
 ### Inputting your own Sentinel 2 data into the microsoft landcover tool
 
 - Upload your images to the fileshare
-- Within `landcover` -> `web_tool` -> `datasets.json` or `datasets.mine.json`, in the `dataLayer` field, you will need to provide the mounted file path like so: /mnt/<file share name>/<your directory name>/<your file name> 
+- Within `landcover` -> `web_tool` -> `datasets.json` or `datasets.mine.json`, in the `dataLayer` field, you will need to provide the mounted file path like so: /mnt/file share name/your directory name/your file name 
 - You will need to change the `baseMapLayer` url to https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x} or whatever tiles you may have
 - Change the initial location to the lat and lng of the desired location
 - Change the args section to contain the attribution, maxZoom, and minZoom 
